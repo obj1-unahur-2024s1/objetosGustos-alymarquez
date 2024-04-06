@@ -17,5 +17,5 @@ object luisa {
 
 object juan {
 	
-	method leGusta(cosa) = cosa.peso().between(1200, 1800) and  not (cosa.color().esFuerte() )
+	method leGusta(cosa) = cosa.peso().between(1200, 1800) or  not (cosa.color().esFuerte() )
 }
